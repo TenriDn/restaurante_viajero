@@ -1,0 +1,22 @@
+HTTrack3.48-21 launched on Thu, 02 Nov 2017 15:12:09 at https://domicilio.campero.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://domicilio.campero.com/ -O "/home/broly/websites/pagina_viajero" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:12:58	Error: 	"Not Found" (404) at link https://domicilio.campero.com/Content/fonts/fontawesome-webfont.woff2?v=4.7.0 (from https://domicilio.campero.com/Content/camperocss?v=4Yc2nL785nnts0gSCD8IR8lrTCi7rRCUg7x9ShiJBv41)
+15:12:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://domicilio.campero.com/bundles/camperojs?v=fXNiJNSQlYRyILeoCY9oE3Y-CoS4WgIMsFcDkaHFLzM1
+15:12:59	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://domicilio.campero.com/)
+15:13:03	Error: 	"Not Found" (404) at link https://domicilio.campero.com/Images/640x360-Popup-website-Encanelado.jpg (from https://domicilio.campero.com/)
+15:13:03	Warning: 	HTML file (142169 bytes) retransferred due to lack of cache: https://domicilio.campero.com/?cat=0
+15:13:05	Warning: 	HTML file (127654 bytes) retransferred due to lack of cache: https://domicilio.campero.com/?cat=5
+15:13:07	Warning: 	HTML file (135022 bytes) retransferred due to lack of cache: https://domicilio.campero.com/?cat=1
+15:13:09	Warning: 	HTML file (127624 bytes) retransferred due to lack of cache: https://domicilio.campero.com/?cat=2
+15:13:11	Warning: 	HTML file (129006 bytes) retransferred due to lack of cache: https://domicilio.campero.com/?cat=3
+15:13:44	Error: 	"" (404) at link https://domicilio.campero.com/Content/fonts/fontawesome-webfont.woff2?v=4.7.0 (from https://domicilio.campero.com/Content/camperocss?v=4Yc2nL785nnts0gSCD8IR8lrTCi7rRCUg7x9ShiJBv41)
+15:13:44	Error: 	"Not Found" (404) at link https://domicilio.campero.com/Content/pattern.png (from https://domicilio.campero.com/Content/stick-to-me.css)
+
+HTTrack Website Copier/3.48-21 mirror complete in 1 minutes 35 seconds : 77 links scanned, 78 files written (4155431 bytes overall) [3220312 bytes received at 33898 bytes/sec], 1142140 bytes transferred using HTTP compression in 15 files, ratio 23%, 1.2 requests per connection
+(5 errors, 6 warnings, 0 messages)

@@ -61,7 +61,7 @@
                    <article style="margin-top:20%;">
                         <p><i class="fa fa-users fa-4x"></i></p>
                         <h3>Registrate</h3>
-                        <p>Registrese y hagase cliente de <span class="tittles-pages-logo">Cat Electronics</span> para recibir las mejores ofertas y descuentos especiales de nuestros productos.</p>
+                        <p>Registrese y hagase cliente de <span class="tittles-pages-logo">EL VIAJERO</span> para recibir las mejores ofertas y descuentos especiales de nuestros productos.</p>
                         <p><a href="registration.php" class="btn btn-info btn-block">Registrarse</a></p>
                    </article>
                 </div>

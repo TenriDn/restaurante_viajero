@@ -21,9 +21,9 @@ include './library/consulSQL.php';
         <div class="container">
             <div class="row">
                 <div class="page-header">
-                    <h1>Tienda <small class="tittles-pages-logo">Cat Electronics</small></h1>
+                    <h1>Tienda <small class="tittles-pages-logo">EL VIAJERO</small></h1>
                 </div>
-                <?php 
+                <?php
                     $CodigoProducto=$_GET['CodigoProd'];
                     $productoinfo=  ejecutarSQL::consultar("select * from producto where CodigoProd='".$CodigoProducto."'");
                     while($fila=mysql_fetch_array($productoinfo)){
@@ -43,7 +43,7 @@ include './library/consulSQL.php';
                             </div>
                             <br><br><br>
                             <div class="col-xs-12 text-center">
-                                <a href="product.php" class="btn btn-lg btn-primary"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;Regresar a la tienda</a> &nbsp;&nbsp;&nbsp; 
+                                <a href="product.php" class="btn btn-lg btn-primary"><i class="fa fa-mail-reply"></i>&nbsp;&nbsp;Regresar a la tienda</a> &nbsp;&nbsp;&nbsp;
                                 <button value="'.$fila['CodigoProd'].'" class="btn btn-lg btn-success botonCarrito"><i class="fa fa-shopping-cart"></i>&nbsp;&nbsp; Añadir al carrito</button>
                             </div>
                         ';
