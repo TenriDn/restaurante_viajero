@@ -5,7 +5,7 @@ include './library/consulSQL.php';
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Productos</title>
+    <title>Menu</title>
     <?php include './inc/link.php'; ?>
 </head>
 <body id="container-page-product">
@@ -14,7 +14,7 @@ include './library/consulSQL.php';
        <br>
         <div class="container">
             <div class="page-header">
-              <h1>Tienda <small class="tittles-pages-logo">EL VIAJERO</small></h1>
+              <h1>RESTAURANTE <small class="tittles-pages-logo">EL VIAJERO</small></h1>
             </div>
             <br><br>
             <div class="row">
