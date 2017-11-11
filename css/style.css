@@ -134,7 +134,7 @@ footer{
 }
 /* ========================================= index styles ======================================*/
 #container-page-index{
-    background-image: url(../assets/img/font-index.JPG);
+    background-image: url(../assets/fondos/madera.jpg);
 }
 #jumbotron-index{
     margin: 0px;
@@ -163,7 +163,7 @@ footer{
 }
 /* ========================================= registration styles ======================================*/
 #container-page-registration{
-    background-image: url(../assets/img/font-registration.jpg);
+    background-image: url(../assets/fondos/madera.jpg);
 }
 #form-registration{
     min-height: 900px;

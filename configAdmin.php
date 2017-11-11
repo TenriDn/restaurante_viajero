@@ -15,7 +15,7 @@
     <section id="prove-product-cat-config">
         <div class="container">
             <div class="page-header">
-              <h1>Panel de administración <small class="tittles-pages-logo">Cat Electronics</small></h1>
+              <h1>Panel de administración <small class="tittles-pages-logo">EL VIAJERO</small></h1>
             </div>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
@@ -45,7 +45,7 @@
                               <div class="form-group">
                                 <label>Categoría</label>
                                 <select class="form-control" name="prod-categoria">
-                                    <?php 
+                                    <?php
                                         $categoriac=  ejecutarSQL::consultar("select * from categoria");
                                         while($catec=mysql_fetch_array($categoriac)){
                                             echo '<option value="'.$catec['CodigoCat'].'">'.$catec['Nombre'].'</option>';
@@ -72,7 +72,7 @@
                               <div class="form-group">
                                 <label>Proveedor</label>
                                 <select class="form-control" name="prod-codigoP">
-                                    <?php 
+                                    <?php
                                         $proveedoresc=  ejecutarSQL::consultar("select * from proveedor");
                                         while($provc=mysql_fetch_array($proveedoresc)){
                                             echo '<option value="'.$provc['NITProveedor'].'">'.$provc['NombreProveedor'].'</option>';
@@ -99,7 +99,7 @@
                                  <div class="form-group">
                                      <label>Productos</label>
                                      <select class="form-control" name="prod-code">
-                                         <?php 
+                                         <?php
                                              $productoc=  ejecutarSQL::consultar("select * from producto");
                                              while($prodc=mysql_fetch_array($productoc)){
                                                  echo '<option value="'.$prodc['CodigoProd'].'">'.$prodc['Marca'].'-'.$prodc['NombreProd'].'-'.$prodc['Modelo'].'</option>';
@@ -157,11 +157,11 @@
                                                                 $categoriac2=  ejecutarSQL::consultar("select * from categoria");
                                                                 while($catec2=mysql_fetch_array($categoriac2)){
                                                                     if($catec2['CodigoCat']==$codeCat){
-                                                                        
+
                                                                     }else{
-                                                                      echo '<option value="'.$catec2['CodigoCat'].'">'.$catec2['Nombre'].'</option>';  
+                                                                      echo '<option value="'.$catec2['CodigoCat'].'">'.$catec2['Nombre'].'</option>';
                                                                     }
-                                                                    
+
                                                                 }
                                                       echo '</select>
                                                         </td>
@@ -180,11 +180,11 @@
                                                                 $proveedoresc2=  ejecutarSQL::consultar("select * from proveedor");
                                                                 while($provc2=mysql_fetch_array($proveedoresc2)){
                                                                     if($provc2['NITProveedor']==$nitP){
-                                                                        
+
                                                                     }else{
                                                                       echo '<option value="'.$provc2['NITProveedor'].'">'.$provc2['NombreProveedor'].'</option>';
-                                                                    }  
-                                                                }  
+                                                                    }
+                                                                }
                                                        echo '</select>
                                                         </td>
                                                         <td class="text-center">
@@ -247,7 +247,7 @@
                                 <div class="form-group">
                                     <label>Proveedores</label>
                                     <select class="form-control" name="nit-prove">
-                                        <?php 
+                                        <?php
                                             $proveNIT=  ejecutarSQL::consultar("select * from proveedor");
                                             while($PN=mysql_fetch_array($proveNIT)){
                                                 echo '<option value="'.$PN['NITProveedor'].'">'.$PN['NITProveedor'].' - '.$PN['NombreProveedor'].'</option>';
@@ -259,7 +259,7 @@
                                 <br>
                                 <div id="res-form-del-prove" style="width: 100%; text-align: center; margin: 0;"></div>
                             </form>
-                        </div>    
+                        </div>
                     </div>
                     <div class="col-xs-12">
                         <br><br>
@@ -346,7 +346,7 @@
                                     <div class="form-group">
                                         <label>Categorías</label>
                                         <select class="form-control" name="categ-code">
-                                            <?php 
+                                            <?php
                                                 $categoriav=  ejecutarSQL::consultar("select * from categoria");
                                                 while($categv=mysql_fetch_array($categoriav)){
                                                     echo '<option value="'.$categv['CodigoCat'].'">'.$categv['CodigoCat'].' - '.$categv['Nombre'].'</option>';
@@ -437,7 +437,7 @@
                                     <div class="form-group">
                                         <label>Administradores</label>
                                         <select class="form-control" name="name-admin">
-                                            <?php 
+                                            <?php
                                                 $adminCon=  ejecutarSQL::consultar("select * from administrador");
                                                 while($AdminD=mysql_fetch_array($adminCon)){
                                                     echo '<option value="'.$AdminD['Nombre'].'">'.$AdminD['Nombre'].'</option>';
@@ -465,7 +465,7 @@
                                     <div class="form-group">
                                         <label>Pedidos</label>
                                         <select class="form-control" name="num-pedido">
-                                            <?php 
+                                            <?php
                                                 $pedidoC=  ejecutarSQL::consultar("select * from venta");
                                                 while($pedidoD=mysql_fetch_array($pedidoC)){
                                                     echo '<option value="'.$pedidoD['NumPedido'].'">Pedido #'.$pedidoD['NumPedido'].' - Estado('.$pedidoD['Estado'].') - Fecha('.$pedidoD['Fecha'].')</option>';
@@ -516,12 +516,12 @@
                                                             <td>
                                                                 <select class="form-control" name="pedido-status">';
                                                                     if($peU['Estado']=="Pendiente"){
-                                                                       echo '<option value="Pendiente">Pendiente</option>'; 
-                                                                       echo '<option value="Entregado">Entregado</option>'; 
+                                                                       echo '<option value="Pendiente">Pendiente</option>';
+                                                                       echo '<option value="Entregado">Entregado</option>';
                                                                     }
                                                                     if($peU['Estado']=="Entregado"){
                                                                        echo '<option value="Entregado">Entregado</option>';
-                                                                       echo '<option value="Pendiente">Pendiente</option>'; 
+                                                                       echo '<option value="Pendiente">Pendiente</option>';
                                                                     }
                                                     echo        '</select>
                                                             </td>

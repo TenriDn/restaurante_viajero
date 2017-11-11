@@ -14,7 +14,7 @@ include './library/consulSQL.php';
        <br>
         <div class="container">
             <div class="page-header">
-              <h1>Tienda <small class="tittles-pages-logo">Cat Electronics</small></h1>
+              <h1>Tienda <small class="tittles-pages-logo">EL VIAJERO</small></h1>
             </div>
             <br><br>
             <div class="row">
@@ -63,16 +63,16 @@ include './library/consulSQL.php';
 
                                          </div>
                                        </div>
-                                   </div>     
+                                   </div>
                                    ';
-                               }   
+                               }
                             }else{
                                 echo '<h2>No hay productos en esta categoria</h2>';
-                            }  
+                            }
                         ?>
                         </div>
                       </div><!-- Fin del contenedor de todos los productos -->
-                      
+
                       <!-- ==================== Contenedores de categorias =============== -->
                       <?php
                         $consultar_categorias= ejecutarSQL::consultar("select * from categoria");
@@ -97,13 +97,13 @@ include './library/consulSQL.php';
 
                                                </div>
                                              </div>
-                                         </div>     
-                                         ';    
-                                   } 
+                                         </div>
+                                         ';
+                                   }
                                 } else {
-                                   echo '<h2>No hay productos en esta categoría</h2>'; 
+                                   echo '<h2>No hay productos en esta categoría</h2>';
                                 }
-                            echo '</div>'; 
+                            echo '</div>';
                         }
                       ?>
                       <!-- ==================== Fin contenedores de categorias =============== -->
