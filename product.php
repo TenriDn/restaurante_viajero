@@ -64,6 +64,17 @@ include './library/consulSQL.php';
                                          </div>
                                        </div>
                                    </div>
+                                   <div class="row-slideitem haypocos">
+                                       <!-- Padre divisiones  !-->
+                                       <div data-analytics="{&quot;name&quot;:&quot;Helado Batido Chicle&quot;,&quot;id&quot;:27419,&quot;price&quot;:17.0,&quot;brand&quot;:&quot;Campero&quot;,&quot;category&quot;:&quot;Postres&quot;,&quot;variant&quot;:&quot;&quot;,&quot;list&quot;:&quot;0&quot;,&quot;position&quot;:0} " class="column-item recomendado" data-name="Helado Batido Chicle" data-price="17" data-idItem="27419" data-imgLarge="https://d2542wednpahnk.cloudfront.net/27419.jpg" data-imgSmall="https://d2542wednpahnk.cloudfront.net/27419.jpg" data-descripcion="Helado Batido Chicle" data-bebidas="Coca Cola, Kolita" data-aderezos="Tartara, BBQ" data-subtype="5" data-order="10" data-filtro="Postres">
+                                           <!-- Hijo producto   !-->
+                                           <div class="img-item">
+                                               <img class="assets/img-products/'.$fila['Imagen'].'">
+                                               <div class="nuevoPrecio">$'.$fila['Precio'].'</div>
+                                           </div>
+                                           <div class="'.$fila['NombreProd'].'</div>
+                                       </div>
+                                   </div>
                                    ';
                                }
                             }else{
