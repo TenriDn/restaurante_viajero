@@ -66,7 +66,7 @@
                    </article>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <img src="assets/img/Smart-TV-RegInfo.png" alt="Smart-TV" class="img-responsive">
+                    <img src="assets/img/food.jpeg" alt="Smart-TV" class="img-responsive">
                 </div>
             </div>
         </div>

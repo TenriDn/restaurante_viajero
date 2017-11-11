@@ -134,11 +134,11 @@ footer{
 }
 /* ========================================= index styles ======================================*/
 #container-page-index{
-    background-image: url(../assets/fondos/madera.jpg);
+    background-image: url(../assets/fondos/fondo.jpeg);
 }
 #jumbotron-index{
     margin: 0px;
-    padding: 140px 25px;
+    padding: 40px 25px;
     color: #fff;
     background-color: rgba(0,0,0,.7);
 }
