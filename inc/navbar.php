@@ -33,7 +33,7 @@
                 <div class="contenedor-tabla pull-right">
                     <div class="contenedor-tr">
                         <a href="index.php" class="table-cell-td">Inicio</a>
-                        <a href="product.php" class="table-cell-td">Productos</a>
+                        <a href="product.php" class="table-cell-td">Menu</a>
                         <?php
                             if(!$_SESSION['nombreAdmin']==""){
                                 echo '
@@ -150,7 +150,7 @@
         <br><br>
         <ul class="list-unstyled text-center">
             <li><a href="index.php">Inicio</a></li>
-            <li><a href="product.php">Productos</a></li>
+            <li><a href="product.php">Menu</a></li>
             <?php
                 if(!$_SESSION['nombreAdmin']==""){
                     echo '<li><a href="configAdmin.php">Administración</a></li>';
@@ -168,7 +168,7 @@
         <div class="modal-content">
             <br>
             <p class="text-center"><i class="fa fa-shopping-cart fa-5x"></i></p>
-            <p class="text-center">El producto se añadio al carrito</p>
+            <p class="text-center">El platillo a;adido al carrito</p>
             <p class="text-center"><button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Aceptar</button></p>
           </div>
       </div>
