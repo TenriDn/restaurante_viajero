@@ -19,31 +19,31 @@
             </div>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#Productos" role="tab" data-toggle="tab">Productos</a></li>
-              <li role="presentation"><a href="#Proveedores" role="tab" data-toggle="tab">Proveedores</a></li>
-              <li role="presentation"><a href="#Categorias" role="tab" data-toggle="tab">Categorías</a></li>
-              <li role="presentation"><a href="#Admins" role="tab" data-toggle="tab">Admin</a></li>
-              <li role="presentation"><a href="#Pedidos" role="tab" data-toggle="tab">Pedidos</a></li>
+              <li role="presentation" class="active"><a href="#Productos" role="tab" data-toggle="tab">Platillos</a></li>
+              <li role="presentation"><a href="#Proveedores" role="tab" data-toggle="tab">Proveedor de comida</a></li>
+              <li role="presentation"><a href="#Categorias" role="tab" data-toggle="tab">Categoria Menu</a></li>
+              <li role="presentation"><a href="#Admins" role="tab" data-toggle="tab">Administrador</a></li>
+              <li role="presentation"><a href="#Pedidos" role="tab" data-toggle="tab">Pedidos del MENU</a></li>
             </ul>
             <div class="tab-content">
-                <!--==============================Panel productos===============================-->
+                <!--==============================Panel PLATILLOS PRO===============================-->
                 <div role="tabpanel" class="tab-pane fade in active" id="Productos">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
                         <br><br>
                         <div id="add-product">
-                            <h2 class="text-primary text-center"><small><i class="fa fa-plus"></i></small>&nbsp;&nbsp;Agregar un producto nuevo</h2>
+                            <h2 class="text-primary text-center"><small><i class="fa fa-plus"></i></small>&nbsp;&nbsp;Agregar Platillo Nuevo</h2>
                             <form role="form" action="process/regproduct.php" method="post" enctype="multipart/form-data">
                               <div class="form-group">
-                                <label>Código de producto</label>
+                                <label>Código de platillo</label>
                                 <input type="text" class="form-control"  placeholder="Código" required maxlength="30" name="prod-codigo">
                               </div>
                               <div class="form-group">
-                                <label>Nombre de producto</label>
+                                <label>Nombre del platillo</label>
                                 <input type="text" class="form-control"  placeholder="Nombre" required maxlength="30" name="prod-name">
                               </div>
                               <div class="form-group">
-                                <label>Categoría</label>
+                                <label>Categoría en menu</label>
                                 <select class="form-control" name="prod-categoria">
                                     <?php
                                         $categoriac=  ejecutarSQL::consultar("select * from categoria");
