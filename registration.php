@@ -19,7 +19,7 @@
                         AL REGISTRARSE RECIBIRA UN TICKET PARA SU PEDIDO
                     </p>
                     <br>
-                    <img src="assets/img/img-registration.png" alt="electrodomesticos" class="img-responsive">
+                    <img src="assets/img/papas.jpeg" alt="papas" class="img-responsive">
                 </div>
                 <div class="col-xs-12 col-sm-6">
                    <br><br>
